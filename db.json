@@ -4,78 +4,70 @@
       "id": 1,
       "name": "Maison à Clermond-Ferrand",
       "rooms": [
-        1,
-        2,
-        3
+        {
+          "id": 1,
+          "name": "Cuisine",
+          "storages": [
+            1
+          ],
+          "objects": []
+        },
+        {
+          "id": 2,
+          "name": "Chambre des parents",
+          "storages": [
+            2,
+            3
+          ],
+          "objects": []
+        },
+        {
+          "id": 3,
+          "name": "Garage",
+          "storages": [],
+          "objects": [
+            6,
+            7
+          ]
+        }
       ]
     },
     {
       "id": 2,
       "name": "Chalet à Courchevel",
       "rooms": [
-        4,
-        5
+        {
+          "id": 4,
+          "name": "Cagibi",
+          "storages": [
+            4
+          ],
+          "objects": [
+            9
+          ]
+        },
+        {
+          "id": 5,
+          "name": "Salon",
+          "storages": [
+            5
+          ],
+          "objects": []
+        }
       ]
     },
     {
       "id": 3,
       "name": "Box",
       "rooms": [
-        6
-      ]
-    }
-  ],
-  "rooms": [
-    {
-      "id": 1,
-      "name": "Cuisine",
-      "storages": [
-        1
-      ],
-      "objects": []
-    },
-    {
-      "id": 2,
-      "name": "Chambre des parents",
-      "storages": [
-        2,
-        3
-      ],
-      "objects": []
-    },
-    {
-      "id": 3,
-      "name": "Garage",
-      "storages": [],
-      "objects": [
-        6,
-        7
-      ]
-    },
-    {
-      "id": 4,
-      "name": "Cagibi",
-      "storages": [
-        4
-      ],
-      "objects": [
-        9
-      ]
-    },
-    {
-      "id": 5,
-      "name": "Salon",
-      "storages": [
-        5
-      ],
-      "objects": []
-    },
-    {
-      "id": 6,
-      "name": "Box",
-      "storages": [],
-      "objects": [
-        11
+        {
+          "id": 6,
+          "name": "Box",
+          "storages": [],
+          "objects": [
+            11
+          ]
+        }
       ]
     }
   ],
