@@ -24,18 +24,18 @@
           "id": 1,
           "name": "Cuisine",
           "storages": 1,
-          "objects": []
+          "objects": 0
         },
         {
           "id": 2,
           "name": "Chambre des parents",
           "storages": 2,
-          "objects": []
+          "objects": 0
         },
         {
           "id": 3,
           "name": "Garage",
-          "storages": [],
+          "storages": 0,
           "objects": 4
         }
       ]
@@ -53,7 +53,7 @@
           "id": 5,
           "name": "Salon",
           "storages": 4,
-          "objects": []
+          "objects": 0
         }
       ]
     },
@@ -63,7 +63,7 @@
         {
           "id": 6,
           "name": "Box",
-          "storages": [],
+          "storages": 0,
           "objects": 8
         }
       ]
