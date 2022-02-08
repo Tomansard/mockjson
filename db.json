@@ -8,7 +8,22 @@
           "id": 1,
           "name": "Cuisine",
           "storages": [
-            1
+            {
+              "id": 1,
+              "name": "Commode",
+              "objects": [
+                {
+                  "id": 1,
+                  "name": "Ouvre boite",
+                  "description": "Une description de l'emplacment"
+                },
+                {
+                  "id": 2,
+                  "name": "Décapsuleur",
+                  "description": "Une description de l'emplacment"
+                }
+              ]
+            }
           ],
           "objects": []
         },
@@ -16,8 +31,33 @@
           "id": 2,
           "name": "Chambre des parents",
           "storages": [
-            2,
-            3
+            {
+              "id": 2,
+              "name": "Dressing",
+              "objects": [
+                {
+                  "id": 3,
+                  "name": "Fer à repasser",
+                  "description": "Une description de l'emplacment"
+                },
+                {
+                  "id": 4,
+                  "name": "Set de couture",
+                  "description": "Une description de l'emplacment"
+                }
+              ]
+            },
+            {
+              "id": 3,
+              "name": "Coffre fort",
+              "objects": [
+                {
+                  "id": 5,
+                  "name": "Passports",
+                  "description": "Une description de l'emplacment"
+                }
+              ]
+            }
           ],
           "objects": []
         },
@@ -26,8 +66,16 @@
           "name": "Garage",
           "storages": [],
           "objects": [
-            6,
-            7
+            {
+              "id": 6,
+              "name": "Caiise à outils",
+              "description": "Une description de l'emplacment"
+            },
+            {
+              "id": 7,
+              "name": "Visseuse électrique",
+              "description": "Une description de l'emplacment"
+            }
           ]
         }
       ]
@@ -40,17 +88,41 @@
           "id": 4,
           "name": "Cagibi",
           "storages": [
-            4
+            {
+              "id": 4,
+              "name": "Caisse verte",
+              "objects": [
+                {
+                  "id": 8,
+                  "name": "Appareil à fondu",
+                  "description": "Une description de l'emplacment"
+                }
+              ]
+            }
           ],
           "objects": [
-            9
+            {
+              "id": 9,
+              "name": "Pelle à neige",
+              "description": "Une description de l'emplacment"
+            }
           ]
         },
         {
           "id": 5,
           "name": "Salon",
           "storages": [
-            5
+            {
+              "id": 5,
+              "name": "Meuble télé",
+              "objects": [
+                {
+                  "id": 10,
+                  "name": "Chargeur de pile",
+                  "description": "Une description de l'emplacment"
+                }
+              ]
+            }
           ],
           "objects": []
         }
@@ -65,106 +137,14 @@
           "name": "Box",
           "storages": [],
           "objects": [
-            11
+            {
+              "id": 11,
+              "name": "Moto",
+              "description": "Une description de l'emplacment"
+            }
           ]
         }
       ]
-    }
-  ],
-  "storages": [
-    {
-      "id": 1,
-      "name": "Commode",
-      "objects": [
-        1,
-        2
-      ]
-    },
-    {
-      "id": 2,
-      "name": "Dressing",
-      "objects": [
-        3,
-        4
-      ]
-    },
-    {
-      "id": 3,
-      "name": "Coffre fort",
-      "objects": [
-        5
-      ]
-    },
-    {
-      "id": 4,
-      "name": "Caisse verte",
-      "objects": [
-        8
-      ]
-    },
-    {
-      "id": 5,
-      "name": "Meuble télé",
-      "objects": [
-        10
-      ]
-    }
-  ],
-  "objects": [
-    {
-      "id": 1,
-      "name": "Ouvre boite",
-      "description": "Une description de l'emplacment"
-    },
-    {
-      "id": 2,
-      "name": "Décapsuleur",
-      "description": "Une description de l'emplacment"
-    },
-    {
-      "id": 3,
-      "name": "Fer à repasser",
-      "description": "Une description de l'emplacment"
-    },
-    {
-      "id": 4,
-      "name": "Set de couture",
-      "description": "Une description de l'emplacment"
-    },
-    {
-      "id": 5,
-      "name": "Passports",
-      "description": "Une description de l'emplacment"
-    },
-    {
-      "id": 6,
-      "name": "Caiise à outils",
-      "description": "Une description de l'emplacment"
-    },
-    {
-      "id": 7,
-      "name": "Visseuse électrique",
-      "description": "Une description de l'emplacment"
-    },
-    {
-      "id": 8,
-      "name": "Appareil à fondu",
-      "description": "Une description de l'emplacment"
-    },
-    {
-      "id": 9,
-      "name": "Pelle à neige",
-      "description": "Une description de l'emplacment"
-    },
-    {
-      "id": 10,
-      "name": "Chargeur de pile",
-      "description": "Une description de l'emplacment"
-    },
-    {
-      "id": 11,
-      "name": "Moto",
-      "description": "Une description de l'emplacment"
     }
   ]
 }
