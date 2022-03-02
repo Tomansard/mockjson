@@ -1,4 +1,23 @@
 {
+  "users":[
+    {
+      "id": 1,
+      "lastname": "Lemoine",
+      "firstname": "Pierre",
+      "email": "a@a.a",
+      "password": "aaaaaa",
+      "token": "pierrelemoine",
+    },
+    {
+      "id": 2,
+      "lastname": "Voquer",
+      "firstname": "Romain",
+      "email": "b@b.b",
+      "password": "bbbbbb",
+      "token": "romainvoquer",
+    }
+    
+  ],
   "places": [
     {
       "id": 1,
