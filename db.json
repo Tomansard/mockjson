@@ -6,7 +6,7 @@
       "firstname": "Pierre",
       "email": "a@a.a",
       "password": "aaaaaa",
-      "token": "pierrelemoine",
+      "token": "pierrelemoine"
     },
     {
       "id": 2,
@@ -14,7 +14,7 @@
       "firstname": "Romain",
       "email": "b@b.b",
       "password": "bbbbbb",
-      "token": "romainvoquer",
+      "token": "romainvoquer"
     }
     
   ],
